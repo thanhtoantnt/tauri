@@ -5842,6 +5842,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "pbt-tests"
+version = "0.1.0"
+dependencies = [
+ "proptest",
+ "serde_json",
+ "tauri",
+ "tauri-utils",
+ "tempfile",
+ "tokio",
+ "toml 0.9.12+spec-1.1.0",
+]
+
+[[package]]
 name = "pear"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -18,6 +18,9 @@ members = [
   # @tauri-apps/cli rust project
   "packages/cli",
 
+  # pbt tests
+  "pbt-tests",
+
   # integration tests
   "crates/tests/restart",
   "crates/tests/acl",

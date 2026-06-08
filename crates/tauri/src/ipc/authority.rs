@@ -35,6 +35,7 @@ pub struct RuntimeAuthority {
 }
 
 /// The origin trying to access the IPC.
+#[derive(Debug, Clone)]
 pub enum Origin {
   /// Local app origin.
   Local,
